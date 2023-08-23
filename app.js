@@ -34,6 +34,7 @@ if (process.env.NODE_ENV !== "production") {
     dotenv.config();
 }
 
+
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
